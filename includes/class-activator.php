@@ -9,9 +9,9 @@
 
 declare(strict_types=1);
 
-namespace Jehankandy\SAP_WooCommerce_Sync;
+namespace Rasandilikshana\SAP_WooCommerce_Sync;
 
-use Jehankandy\SAP_WooCommerce_Sync\Data\Database;
+use Rasandilikshana\SAP_WooCommerce_Sync\Data\Database;
 
 /**
  * Fired during plugin activation.

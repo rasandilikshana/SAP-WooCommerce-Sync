@@ -9,11 +9,11 @@
 
 declare(strict_types=1);
 
-namespace Jehankandy\SAP_WooCommerce_Sync\WooCommerce;
+namespace Rasandilikshana\SAP_WooCommerce_Sync\WooCommerce;
 
-use Jehankandy\SAP_WooCommerce_Sync\Queue\Queue_Manager;
-use Jehankandy\SAP_WooCommerce_Sync\Utilities\Helper;
-use Jehankandy\SAP_WooCommerce_Sync\Utilities\Logger;
+use Rasandilikshana\SAP_WooCommerce_Sync\Queue\Queue_Manager;
+use Rasandilikshana\SAP_WooCommerce_Sync\Utilities\Helper;
+use Rasandilikshana\SAP_WooCommerce_Sync\Utilities\Logger;
 
 /**
  * Handles WooCommerce order events for SAP synchronization.

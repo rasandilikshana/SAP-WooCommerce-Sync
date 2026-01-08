@@ -9,9 +9,9 @@
 
 declare(strict_types=1);
 
-namespace Jehankandy\SAP_WooCommerce_Sync\WooCommerce;
+namespace Rasandilikshana\SAP_WooCommerce_Sync\WooCommerce;
 
-use Jehankandy\SAP_WooCommerce_Sync\Utilities\Logger;
+use Rasandilikshana\SAP_WooCommerce_Sync\Utilities\Logger;
 
 /**
  * Handles WooCommerce product events.

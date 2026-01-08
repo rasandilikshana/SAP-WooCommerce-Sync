@@ -9,20 +9,20 @@
 
 declare(strict_types=1);
 
-namespace Jehankandy\SAP_WooCommerce_Sync;
+namespace Rasandilikshana\SAP_WooCommerce_Sync;
 
-use Jehankandy\SAP_WooCommerce_Sync\Admin\Admin;
-use Jehankandy\SAP_WooCommerce_Sync\Data\Database;
-use Jehankandy\SAP_WooCommerce_Sync\Queue\Queue_Manager;
-use Jehankandy\SAP_WooCommerce_Sync\SAP\Client;
-use Jehankandy\SAP_WooCommerce_Sync\SAP\Session_Manager;
-use Jehankandy\SAP_WooCommerce_Sync\Sync\Order_Sync;
-use Jehankandy\SAP_WooCommerce_Sync\Sync\Stock_Sync;
-use Jehankandy\SAP_WooCommerce_Sync\Utilities\Encryption;
-use Jehankandy\SAP_WooCommerce_Sync\Utilities\Logger;
-use Jehankandy\SAP_WooCommerce_Sync\WooCommerce\Order_Hooks;
-use Jehankandy\SAP_WooCommerce_Sync\WooCommerce\Product_Hooks;
-use Jehankandy\SAP_WooCommerce_Sync\WooCommerce\Stock_Hooks;
+use Rasandilikshana\SAP_WooCommerce_Sync\Admin\Admin;
+use Rasandilikshana\SAP_WooCommerce_Sync\Data\Database;
+use Rasandilikshana\SAP_WooCommerce_Sync\Queue\Queue_Manager;
+use Rasandilikshana\SAP_WooCommerce_Sync\SAP\Client;
+use Rasandilikshana\SAP_WooCommerce_Sync\SAP\Session_Manager;
+use Rasandilikshana\SAP_WooCommerce_Sync\Sync\Order_Sync;
+use Rasandilikshana\SAP_WooCommerce_Sync\Sync\Stock_Sync;
+use Rasandilikshana\SAP_WooCommerce_Sync\Utilities\Encryption;
+use Rasandilikshana\SAP_WooCommerce_Sync\Utilities\Logger;
+use Rasandilikshana\SAP_WooCommerce_Sync\WooCommerce\Order_Hooks;
+use Rasandilikshana\SAP_WooCommerce_Sync\WooCommerce\Product_Hooks;
+use Rasandilikshana\SAP_WooCommerce_Sync\WooCommerce\Stock_Hooks;
 
 /**
  * Main plugin class implementing Singleton pattern.

@@ -16,6 +16,10 @@ class ComposerStaticInit79c35bfb5be66dca2b1797eb403913ad
     );
 
     public static $prefixLengthsPsr4 = array (
+        'R' => 
+        array (
+            'Rasandilikshana\\SAP_WooCommerce_Sync\\Tests\\' => 43,
+        ),
         'P' => 
         array (
             'PhpParser\\' => 10,
@@ -24,10 +28,6 @@ class ComposerStaticInit79c35bfb5be66dca2b1797eb403913ad
         'M' => 
         array (
             'Mockery\\' => 8,
-        ),
-        'J' => 
-        array (
-            'Jehankandy\\SAP_WooCommerce_Sync\\Tests\\' => 38,
         ),
         'D' => 
         array (
@@ -41,6 +41,10 @@ class ComposerStaticInit79c35bfb5be66dca2b1797eb403913ad
     );
 
     public static $prefixDirsPsr4 = array (
+        'Rasandilikshana\\SAP_WooCommerce_Sync\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/tests',
+        ),
         'PhpParser\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
@@ -52,10 +56,6 @@ class ComposerStaticInit79c35bfb5be66dca2b1797eb403913ad
         'Mockery\\' => 
         array (
             0 => __DIR__ . '/..' . '/mockery/mockery/library/Mockery',
-        ),
-        'Jehankandy\\SAP_WooCommerce_Sync\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/tests',
         ),
         'Doctrine\\Instantiator\\' => 
         array (
@@ -205,32 +205,6 @@ class ComposerStaticInit79c35bfb5be66dca2b1797eb403913ad
         'Hamcrest\\Type\\IsString' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Type/IsString.php',
         'Hamcrest\\Util' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Util.php',
         'Hamcrest\\Xml\\HasXPath' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Xml/HasXPath.php',
-        'Jehankandy\\SAP_WooCommerce_Sync\\Activator' => __DIR__ . '/../..' . '/includes/class-activator.php',
-        'Jehankandy\\SAP_WooCommerce_Sync\\Admin\\Admin' => __DIR__ . '/../..' . '/includes/Admin/class-admin.php',
-        'Jehankandy\\SAP_WooCommerce_Sync\\Autoloader' => __DIR__ . '/../..' . '/includes/class-autoloader.php',
-        'Jehankandy\\SAP_WooCommerce_Sync\\Deactivator' => __DIR__ . '/../..' . '/includes/class-deactivator.php',
-        'Jehankandy\\SAP_WooCommerce_Sync\\Exceptions\\Authentication_Exception' => __DIR__ . '/../..' . '/includes/Exceptions/class-authentication-exception.php',
-        'Jehankandy\\SAP_WooCommerce_Sync\\Exceptions\\Connection_Exception' => __DIR__ . '/../..' . '/includes/Exceptions/class-connection-exception.php',
-        'Jehankandy\\SAP_WooCommerce_Sync\\Exceptions\\SAP_Exception' => __DIR__ . '/../..' . '/includes/Exceptions/class-sap-exception.php',
-        'Jehankandy\\SAP_WooCommerce_Sync\\Exceptions\\Validation_Exception' => __DIR__ . '/../..' . '/includes/Exceptions/class-validation-exception.php',
-        'Jehankandy\\SAP_WooCommerce_Sync\\Mappers\\Customer_Mapper' => __DIR__ . '/../..' . '/includes/Mappers/class-customer-mapper.php',
-        'Jehankandy\\SAP_WooCommerce_Sync\\Mappers\\Order_Mapper' => __DIR__ . '/../..' . '/includes/Mappers/class-order-mapper.php',
-        'Jehankandy\\SAP_WooCommerce_Sync\\Plugin' => __DIR__ . '/../..' . '/includes/class-plugin.php',
-        'Jehankandy\\SAP_WooCommerce_Sync\\Queue\\Queue_Manager' => __DIR__ . '/../..' . '/includes/Queue/class-queue-manager.php',
-        'Jehankandy\\SAP_WooCommerce_Sync\\SAP\\Client' => __DIR__ . '/../..' . '/includes/SAP/class-client.php',
-        'Jehankandy\\SAP_WooCommerce_Sync\\SAP\\Request_Builder' => __DIR__ . '/../..' . '/includes/SAP/class-request-builder.php',
-        'Jehankandy\\SAP_WooCommerce_Sync\\SAP\\Response_Parser' => __DIR__ . '/../..' . '/includes/SAP/class-response-parser.php',
-        'Jehankandy\\SAP_WooCommerce_Sync\\SAP\\Session_Manager' => __DIR__ . '/../..' . '/includes/SAP/class-session-manager.php',
-        'Jehankandy\\SAP_WooCommerce_Sync\\Sync\\Customer_Sync' => __DIR__ . '/../..' . '/includes/Sync/class-customer-sync.php',
-        'Jehankandy\\SAP_WooCommerce_Sync\\Sync\\Order_Sync' => __DIR__ . '/../..' . '/includes/Sync/class-order-sync.php',
-        'Jehankandy\\SAP_WooCommerce_Sync\\Sync\\Stock_Sync' => __DIR__ . '/../..' . '/includes/Sync/class-stock-sync.php',
-        'Jehankandy\\SAP_WooCommerce_Sync\\Utilities\\Encryption' => __DIR__ . '/../..' . '/includes/Utilities/class-encryption.php',
-        'Jehankandy\\SAP_WooCommerce_Sync\\Utilities\\Helper' => __DIR__ . '/../..' . '/includes/Utilities/class-helper.php',
-        'Jehankandy\\SAP_WooCommerce_Sync\\Utilities\\Logger' => __DIR__ . '/../..' . '/includes/Utilities/class-logger.php',
-        'Jehankandy\\SAP_WooCommerce_Sync\\Utilities\\Validator' => __DIR__ . '/../..' . '/includes/Utilities/class-validator.php',
-        'Jehankandy\\SAP_WooCommerce_Sync\\WooCommerce\\Order_Hooks' => __DIR__ . '/../..' . '/includes/WooCommerce/class-order-hooks.php',
-        'Jehankandy\\SAP_WooCommerce_Sync\\WooCommerce\\Product_Hooks' => __DIR__ . '/../..' . '/includes/WooCommerce/class-product-hooks.php',
-        'Jehankandy\\SAP_WooCommerce_Sync\\WooCommerce\\Stock_Hooks' => __DIR__ . '/../..' . '/includes/WooCommerce/class-stock-hooks.php',
         'Mockery\\Adapter\\Phpunit\\MockeryPHPUnitIntegration' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegration.php',
         'Mockery\\Adapter\\Phpunit\\MockeryPHPUnitIntegrationAssertPostConditions' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegrationAssertPostConditions.php',
         'Mockery\\Adapter\\Phpunit\\MockeryTestCase' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php',
@@ -1065,6 +1039,32 @@ class ComposerStaticInit79c35bfb5be66dca2b1797eb403913ad
         'PhpParser\\PrettyPrinterAbstract' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/PrettyPrinterAbstract.php',
         'PhpParser\\PrettyPrinter\\Standard' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/PrettyPrinter/Standard.php',
         'PhpParser\\Token' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Token.php',
+        'Rasandilikshana\\SAP_WooCommerce_Sync\\Activator' => __DIR__ . '/../..' . '/includes/class-activator.php',
+        'Rasandilikshana\\SAP_WooCommerce_Sync\\Admin\\Admin' => __DIR__ . '/../..' . '/includes/Admin/class-admin.php',
+        'Rasandilikshana\\SAP_WooCommerce_Sync\\Autoloader' => __DIR__ . '/../..' . '/includes/class-autoloader.php',
+        'Rasandilikshana\\SAP_WooCommerce_Sync\\Deactivator' => __DIR__ . '/../..' . '/includes/class-deactivator.php',
+        'Rasandilikshana\\SAP_WooCommerce_Sync\\Exceptions\\Authentication_Exception' => __DIR__ . '/../..' . '/includes/Exceptions/class-authentication-exception.php',
+        'Rasandilikshana\\SAP_WooCommerce_Sync\\Exceptions\\Connection_Exception' => __DIR__ . '/../..' . '/includes/Exceptions/class-connection-exception.php',
+        'Rasandilikshana\\SAP_WooCommerce_Sync\\Exceptions\\SAP_Exception' => __DIR__ . '/../..' . '/includes/Exceptions/class-sap-exception.php',
+        'Rasandilikshana\\SAP_WooCommerce_Sync\\Exceptions\\Validation_Exception' => __DIR__ . '/../..' . '/includes/Exceptions/class-validation-exception.php',
+        'Rasandilikshana\\SAP_WooCommerce_Sync\\Mappers\\Customer_Mapper' => __DIR__ . '/../..' . '/includes/Mappers/class-customer-mapper.php',
+        'Rasandilikshana\\SAP_WooCommerce_Sync\\Mappers\\Order_Mapper' => __DIR__ . '/../..' . '/includes/Mappers/class-order-mapper.php',
+        'Rasandilikshana\\SAP_WooCommerce_Sync\\Plugin' => __DIR__ . '/../..' . '/includes/class-plugin.php',
+        'Rasandilikshana\\SAP_WooCommerce_Sync\\Queue\\Queue_Manager' => __DIR__ . '/../..' . '/includes/Queue/class-queue-manager.php',
+        'Rasandilikshana\\SAP_WooCommerce_Sync\\SAP\\Client' => __DIR__ . '/../..' . '/includes/SAP/class-client.php',
+        'Rasandilikshana\\SAP_WooCommerce_Sync\\SAP\\Request_Builder' => __DIR__ . '/../..' . '/includes/SAP/class-request-builder.php',
+        'Rasandilikshana\\SAP_WooCommerce_Sync\\SAP\\Response_Parser' => __DIR__ . '/../..' . '/includes/SAP/class-response-parser.php',
+        'Rasandilikshana\\SAP_WooCommerce_Sync\\SAP\\Session_Manager' => __DIR__ . '/../..' . '/includes/SAP/class-session-manager.php',
+        'Rasandilikshana\\SAP_WooCommerce_Sync\\Sync\\Customer_Sync' => __DIR__ . '/../..' . '/includes/Sync/class-customer-sync.php',
+        'Rasandilikshana\\SAP_WooCommerce_Sync\\Sync\\Order_Sync' => __DIR__ . '/../..' . '/includes/Sync/class-order-sync.php',
+        'Rasandilikshana\\SAP_WooCommerce_Sync\\Sync\\Stock_Sync' => __DIR__ . '/../..' . '/includes/Sync/class-stock-sync.php',
+        'Rasandilikshana\\SAP_WooCommerce_Sync\\Utilities\\Encryption' => __DIR__ . '/../..' . '/includes/Utilities/class-encryption.php',
+        'Rasandilikshana\\SAP_WooCommerce_Sync\\Utilities\\Helper' => __DIR__ . '/../..' . '/includes/Utilities/class-helper.php',
+        'Rasandilikshana\\SAP_WooCommerce_Sync\\Utilities\\Logger' => __DIR__ . '/../..' . '/includes/Utilities/class-logger.php',
+        'Rasandilikshana\\SAP_WooCommerce_Sync\\Utilities\\Validator' => __DIR__ . '/../..' . '/includes/Utilities/class-validator.php',
+        'Rasandilikshana\\SAP_WooCommerce_Sync\\WooCommerce\\Order_Hooks' => __DIR__ . '/../..' . '/includes/WooCommerce/class-order-hooks.php',
+        'Rasandilikshana\\SAP_WooCommerce_Sync\\WooCommerce\\Product_Hooks' => __DIR__ . '/../..' . '/includes/WooCommerce/class-product-hooks.php',
+        'Rasandilikshana\\SAP_WooCommerce_Sync\\WooCommerce\\Stock_Hooks' => __DIR__ . '/../..' . '/includes/WooCommerce/class-stock-hooks.php',
         'SebastianBergmann\\CliParser\\AmbiguousOptionException' => __DIR__ . '/..' . '/sebastian/cli-parser/src/exceptions/AmbiguousOptionException.php',
         'SebastianBergmann\\CliParser\\Exception' => __DIR__ . '/..' . '/sebastian/cli-parser/src/exceptions/Exception.php',
         'SebastianBergmann\\CliParser\\OptionDoesNotAllowArgumentException' => __DIR__ . '/..' . '/sebastian/cli-parser/src/exceptions/OptionDoesNotAllowArgumentException.php',

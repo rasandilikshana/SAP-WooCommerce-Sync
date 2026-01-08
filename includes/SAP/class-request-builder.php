@@ -9,7 +9,7 @@
 
 declare(strict_types=1);
 
-namespace Jehankandy\SAP_WooCommerce_Sync\SAP;
+namespace Rasandilikshana\SAP_WooCommerce_Sync\SAP;
 
 /**
  * Builds OData query parameters for SAP API requests.

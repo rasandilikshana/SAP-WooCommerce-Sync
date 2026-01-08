@@ -9,7 +9,7 @@
 
 declare(strict_types=1);
 
-namespace Jehankandy\SAP_WooCommerce_Sync;
+namespace Rasandilikshana\SAP_WooCommerce_Sync;
 
 /**
  * Fired during plugin deactivation.

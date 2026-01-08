@@ -7,7 +7,7 @@
 
 > **Plugin Name:** SAP WooCommerce Sync  
 > **Author:** [rasandilikshana](https://github.com/rasandilikshana)  
-> **Namespace:** `Jehankandy\SAP_WooCommerce_Sync`
+> **Namespace:** `Rasandilikshana\SAP_WooCommerce_Sync`
 
 Synchronizes inventory, orders, and products between **WooCommerce** and **SAP Business One** via the SAP Service Layer API.
 

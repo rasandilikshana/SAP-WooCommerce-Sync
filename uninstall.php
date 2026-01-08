@@ -22,7 +22,7 @@ if ( file_exists( $autoloader ) ) {
 	require_once $autoloader;
 } else {
 	require_once SAP_WC_SYNC_DIR . 'includes/class-autoloader.php';
-	Jehankandy\SAP_WooCommerce_Sync\Autoloader::register();
+	Rasandilikshana\SAP_WooCommerce_Sync\Autoloader::register();
 }
 
 /**

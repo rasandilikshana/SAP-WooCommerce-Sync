@@ -9,7 +9,7 @@
 
 declare(strict_types=1);
 
-namespace Jehankandy\SAP_WooCommerce_Sync;
+namespace Rasandilikshana\SAP_WooCommerce_Sync;
 
 /**
  * PSR-4 Autoloader for plugin classes.
@@ -28,7 +28,7 @@ class Autoloader
      * @since 1.0.0
      * @var string
      */
-    private const NAMESPACE_PREFIX = 'Jehankandy\\SAP_WooCommerce_Sync\\';
+    private const NAMESPACE_PREFIX = 'Rasandilikshana\\SAP_WooCommerce_Sync\\';
 
     /**
      * The base directory for the namespace prefix.

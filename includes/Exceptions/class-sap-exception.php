@@ -9,7 +9,7 @@
 
 declare(strict_types=1);
 
-namespace Jehankandy\SAP_WooCommerce_Sync\Exceptions;
+namespace Rasandilikshana\SAP_WooCommerce_Sync\Exceptions;
 
 /**
  * Base exception for all SAP-related errors.

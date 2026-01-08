@@ -9,12 +9,12 @@
 
 declare(strict_types=1);
 
-namespace Jehankandy\SAP_WooCommerce_Sync\SAP;
+namespace Rasandilikshana\SAP_WooCommerce_Sync\SAP;
 
-use Jehankandy\SAP_WooCommerce_Sync\Exceptions\Authentication_Exception;
-use Jehankandy\SAP_WooCommerce_Sync\Exceptions\Connection_Exception;
-use Jehankandy\SAP_WooCommerce_Sync\Exceptions\SAP_Exception;
-use Jehankandy\SAP_WooCommerce_Sync\Utilities\Logger;
+use Rasandilikshana\SAP_WooCommerce_Sync\Exceptions\Authentication_Exception;
+use Rasandilikshana\SAP_WooCommerce_Sync\Exceptions\Connection_Exception;
+use Rasandilikshana\SAP_WooCommerce_Sync\Exceptions\SAP_Exception;
+use Rasandilikshana\SAP_WooCommerce_Sync\Utilities\Logger;
 
 /**
  * HTTP Client for SAP Service Layer API.

@@ -9,7 +9,7 @@
 
 declare(strict_types=1);
 
-namespace Jehankandy\SAP_WooCommerce_Sync\Utilities;
+namespace Rasandilikshana\SAP_WooCommerce_Sync\Utilities;
 
 /**
  * General helper functions for the plugin.
@@ -23,11 +23,11 @@ class Helper
      * Get the plugin instance.
      *
      * @since 1.0.0
-     * @return \Jehankandy\SAP_WooCommerce_Sync\Plugin|null
+     * @return \Rasandilikshana\SAP_WooCommerce_Sync\Plugin|null
      */
-    public static function get_plugin(): ?\Jehankandy\SAP_WooCommerce_Sync\Plugin
+    public static function get_plugin(): ?\Rasandilikshana\SAP_WooCommerce_Sync\Plugin
     {
-        return \Jehankandy\SAP_WooCommerce_Sync\Plugin::get_instance();
+        return \Rasandilikshana\SAP_WooCommerce_Sync\Plugin::get_instance();
     }
 
     /**

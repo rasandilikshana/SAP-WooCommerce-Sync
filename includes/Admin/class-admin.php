@@ -9,10 +9,10 @@
 
 declare(strict_types=1);
 
-namespace Jehankandy\SAP_WooCommerce_Sync\Admin;
+namespace Rasandilikshana\SAP_WooCommerce_Sync\Admin;
 
-use Jehankandy\SAP_WooCommerce_Sync\Plugin;
-use Jehankandy\SAP_WooCommerce_Sync\Utilities\Validator;
+use Rasandilikshana\SAP_WooCommerce_Sync\Plugin;
+use Rasandilikshana\SAP_WooCommerce_Sync\Utilities\Validator;
 
 /**
  * Main admin controller for the plugin.

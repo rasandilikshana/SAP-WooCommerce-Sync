@@ -9,12 +9,12 @@
 
 declare(strict_types=1);
 
-namespace Jehankandy\SAP_WooCommerce_Sync\Sync;
+namespace Rasandilikshana\SAP_WooCommerce_Sync\Sync;
 
-use Jehankandy\SAP_WooCommerce_Sync\SAP\Client;
-use Jehankandy\SAP_WooCommerce_Sync\SAP\Request_Builder;
-use Jehankandy\SAP_WooCommerce_Sync\SAP\Response_Parser;
-use Jehankandy\SAP_WooCommerce_Sync\Utilities\Logger;
+use Rasandilikshana\SAP_WooCommerce_Sync\SAP\Client;
+use Rasandilikshana\SAP_WooCommerce_Sync\SAP\Request_Builder;
+use Rasandilikshana\SAP_WooCommerce_Sync\SAP\Response_Parser;
+use Rasandilikshana\SAP_WooCommerce_Sync\Utilities\Logger;
 
 /**
  * Handles stock synchronization from SAP to WooCommerce.

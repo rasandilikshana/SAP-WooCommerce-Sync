@@ -9,9 +9,9 @@
 
 declare(strict_types=1);
 
-namespace Jehankandy\SAP_WooCommerce_Sync\Mappers;
+namespace Rasandilikshana\SAP_WooCommerce_Sync\Mappers;
 
-use Jehankandy\SAP_WooCommerce_Sync\Utilities\Helper;
+use Rasandilikshana\SAP_WooCommerce_Sync\Utilities\Helper;
 
 /**
  * Maps WooCommerce orders to SAP Sales Order format.

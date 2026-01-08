@@ -9,15 +9,15 @@
 
 declare(strict_types=1);
 
-namespace Jehankandy\SAP_WooCommerce_Sync\Sync;
+namespace Rasandilikshana\SAP_WooCommerce_Sync\Sync;
 
-use Jehankandy\SAP_WooCommerce_Sync\Exceptions\SAP_Exception;
-use Jehankandy\SAP_WooCommerce_Sync\Exceptions\Validation_Exception;
-use Jehankandy\SAP_WooCommerce_Sync\Mappers\Order_Mapper;
-use Jehankandy\SAP_WooCommerce_Sync\SAP\Client;
-use Jehankandy\SAP_WooCommerce_Sync\SAP\Response_Parser;
-use Jehankandy\SAP_WooCommerce_Sync\Utilities\Logger;
-use Jehankandy\SAP_WooCommerce_Sync\Utilities\Validator;
+use Rasandilikshana\SAP_WooCommerce_Sync\Exceptions\SAP_Exception;
+use Rasandilikshana\SAP_WooCommerce_Sync\Exceptions\Validation_Exception;
+use Rasandilikshana\SAP_WooCommerce_Sync\Mappers\Order_Mapper;
+use Rasandilikshana\SAP_WooCommerce_Sync\SAP\Client;
+use Rasandilikshana\SAP_WooCommerce_Sync\SAP\Response_Parser;
+use Rasandilikshana\SAP_WooCommerce_Sync\Utilities\Logger;
+use Rasandilikshana\SAP_WooCommerce_Sync\Utilities\Validator;
 
 /**
  * Handles order synchronization from WooCommerce to SAP.

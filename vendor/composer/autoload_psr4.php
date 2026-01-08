@@ -6,10 +6,10 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Rasandilikshana\\SAP_WooCommerce_Sync\\Tests\\' => array($baseDir . '/tests'),
     'PhpParser\\' => array($vendorDir . '/nikic/php-parser/lib/PhpParser'),
     'PHPCSStandards\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\' => array($vendorDir . '/dealerdirect/phpcodesniffer-composer-installer/src'),
     'Mockery\\' => array($vendorDir . '/mockery/mockery/library/Mockery'),
-    'Jehankandy\\SAP_WooCommerce_Sync\\Tests\\' => array($baseDir . '/tests'),
     'Doctrine\\Instantiator\\' => array($vendorDir . '/doctrine/instantiator/src/Doctrine/Instantiator'),
     'DeepCopy\\' => array($vendorDir . '/myclabs/deep-copy/src/DeepCopy'),
     'Brain\\Monkey\\' => array($vendorDir . '/brain/monkey/src'),

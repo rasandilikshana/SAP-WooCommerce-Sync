@@ -9,9 +9,9 @@
 
 declare(strict_types=1);
 
-namespace Jehankandy\SAP_WooCommerce_Sync\Queue;
+namespace Rasandilikshana\SAP_WooCommerce_Sync\Queue;
 
-use Jehankandy\SAP_WooCommerce_Sync\Utilities\Logger;
+use Rasandilikshana\SAP_WooCommerce_Sync\Utilities\Logger;
 
 /**
  * Manages background job queuing using Action Scheduler.

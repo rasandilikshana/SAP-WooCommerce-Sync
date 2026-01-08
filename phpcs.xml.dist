@@ -26,7 +26,7 @@
             <property name="prefixes" type="array">
                 <element value="sap_wc_sync"/>
                 <element value="SAP_WC_Sync"/>
-                <element value="Jehankandy\SAP_WooCommerce_Sync"/>
+                <element value="Rasandilikshana\SAP_WooCommerce_Sync"/>
             </property>
         </properties>
     </rule>

@@ -27,7 +27,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Jehankandy\\SAP_WooCommerce_Sync\\Tests\\": "tests/"
+            "Rasandilikshana\\SAP_WooCommerce_Sync\\Tests\\": "tests/"
         }
     },
     "scripts": {
