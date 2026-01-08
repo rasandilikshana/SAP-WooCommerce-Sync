@@ -1,12 +1,12 @@
 {
-    "name": "jehankandy/sap-woocommerce-sync",
+    "name": "rasandilikshana/sap-woocommerce-sync",
     "description": "SAP Business One - WooCommerce Integration Plugin",
     "type": "wordpress-plugin",
     "license": "GPL-2.0-or-later",
     "authors": [
         {
-            "name": "Jehan Kandy",
-            "email": "developer@example.com"
+            "name": "Rasandilikshana",
+            "homepage": "https://github.com/rasandilikshana"
         }
     ],
     "require": {
