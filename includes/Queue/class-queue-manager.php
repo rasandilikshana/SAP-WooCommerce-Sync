@@ -373,14 +373,17 @@ class Queue_Manager
             return 0;
         }
 
-        return as_get_scheduled_actions(
+        // Use ARRAY_A return type and count the results.
+        $actions = as_get_scheduled_actions(
             [
                 'group' => $group,
                 'status' => \ActionScheduler_Store::STATUS_PENDING,
                 'per_page' => -1,
             ],
-            'count'
+            'ids'
         );
+
+        return is_array($actions) ? count($actions) : 0;
     }
 
     /**
